@@ -1,0 +1,128 @@
+/* color: rgb(169, 2, 2); */
+
+
+
+@font-face {
+    font-family: MrDafoe-font;
+    src: url("/MrDafoe-Regular.ttf");
+}
+
+html, body{
+    height:100%;
+    width: 100%;
+    margin: 0px;
+    /* ocupar todo el ancho y alto de la pantalla */
+}
+
+.background{
+    background-image: url("/imelda-may.jpg");
+    /* background-image: url("./Images/wp2823059.jpg"); */
+
+    /* background-color: black; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* max-width: 100%; */
+    /* max-height: 100%; */
+    display: flex;
+    padding-left: 0 ;
+    padding-right: 0 ;
+    width: 100% ;
+    height: 100%;
+    /* position: relative; */
+}
+
+#h1-home{
+    font-family: MrDafoe-font;
+    color: rgb(169, 2, 2);
+    /* border-color: black; */
+    border-style: dashed;
+    font-size: 120px;
+    margin-left: 100px;
+    margin-top:40px;
+    text-shadow: -2px -2px 1px #000;
+    /* position: absolute; */
+}
+
+.buttons{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 30px;
+    margin-top: 25px;
+    
+}
+
+.buttons button{
+    /* display: flex; */
+    height: 150px;
+    width: 150px;
+    margin: 50px;
+    border-radius: 10px ;
+    /* border-style: dashed; */
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+    font-size: 35px;
+    font-family: MrDafoe-font;
+    /* background: linear-gradient(to top, rgb(133, 2, 2), rgba(255, 85, 85, 0.937))    crear degradados */
+
+    /* color: rgba(255, 255, 255, 1) !important; */
+    color: black !important;
+    box-shadow: 0 4px 16px rgb(169, 2, 2);
+    transition: all 0.2s ease;
+}
+
+
+
+/* -----------------ABOUT------------------------------- */
+
+#img-fondo{
+    position: absolute;
+    opacity: 0.3;
+    width: 100% ;
+  
+
+
+   
+    /* background-size: cover; */
+
+    /* padding-left: 0 ; */
+    /* padding-right: 0 ; */
+    /* height: 80%; */
+    
+    /* display: flex; */
+
+
+
+}
+
+#h1-about{
+    position: absolute;
+    text-align: center;
+    
+    /* display: flex; */
+}
+/* header{ */
+    /* justify-content: center; */
+    /* position: absolute; */
+    /* width: 100%; */
+    /* text-align: center; */
+/* } */
+
+.container{
+    position: relative;
+    
+    /* display: flex; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
