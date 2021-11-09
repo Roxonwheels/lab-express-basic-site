@@ -6,19 +6,19 @@ app.use(express.static(__dirname + "/public"));
 
 
 app.get("/", (request, response) => {
-    response.sendFile(__dirname + "/vistas/home.html");
+    response.sendFile(__dirname + "/views/home.html");
 })
 
 app.get("/about", (request, response) => {
-    response.sendFile(__dirname + "/vistas/about.html");
+    response.sendFile(__dirname + "/views/about.html");
 })
 
 app.get("/works", (request, response) => {
-    response.sendFile(__dirname + "/vistas/works.html");
+    response.sendFile(__dirname + "/views/works.html");
 })
 
 app.get("/photogallery", (request, response) => {
-    response.sendFile(__dirname + "/vistas/photogallery.html");
+    response.sendFile(__dirname + "/views/photogallery.html");
 })
 
 app.listen(3000)
