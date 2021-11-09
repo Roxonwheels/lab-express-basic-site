@@ -7,6 +7,12 @@
     src: url("/MrDafoe-Regular.ttf");
 }
 
+
+@font-face {
+    font-family: Dosis-Regular;
+    src: url("/Dosis-Regular.ttf");
+}
+
 html, body{
     height:100%;
     width: 100%;
@@ -23,19 +29,24 @@ html, body{
     padding-right: 0 ;
     width: 100% ;
     height: 100%;
-    /* position: relative; */
+    position: relative;
+}
+
+.main{
+    padding-left: 0 ;
+    padding-right: 0 ;
+    width: 100% ;
+    height: 100%;
 }
 
 #h1-home{
     font-family: MrDafoe-font;
     color: rgb(169, 2, 2);
-    /* border-color: black; */
     border-style: dashed;
     font-size: 120px;
     margin-left: 100px;
     margin-top:40px;
     text-shadow: -2px -2px 1px #000;
-    /* position: absolute; */
 }
 
 .buttons{
@@ -44,67 +55,121 @@ html, body{
     flex-direction: column;
     right: 30px;
     margin-top: 25px;
-    
 }
 
 .buttons button{
-    /* display: flex; */
     height: 150px;
     width: 150px;
     margin: 50px;
     border-radius: 10px ;
-    /* border-style: dashed; */
     border-color: rgb(0, 0, 0);
     border-width: 5px;
     font-size: 35px;
     font-family: MrDafoe-font;
-    /* background: linear-gradient(to top, rgb(133, 2, 2), rgba(255, 85, 85, 0.937))    crear degradados */
-
-    /* color: rgba(255, 255, 255, 1) !important; */
     color: black !important;
     box-shadow: 0 4px 16px rgb(169, 2, 2);
     transition: all 0.2s ease;
 }
 
-
-
 /* -----------------ABOUT------------------------------- */
 
-
-
-.main{
-    position: relative;
-    padding-left: 0 ;
-    padding-right: 0 ;
-    width: 100% ;
-    height: 100%;l
-}
 
 #opacity{
     position: absolute;
     opacity: 0.3;
+}
 
-/* 
-    background-attachment: fixed;
-    overflow: auto; */
+#h1-about{
+    position: absolute;
+    font-family: MrDafoe-font;
+    color: rgb(169, 2, 2);
+    font-size: 100px;
+    margin-left: 1350px;
+    text-shadow: -2px -2px 1px #000;
+    margin-top:40px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
 
+
+.text-box{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 1);
+    border: 5px solid black;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px 3px rgb(169, 2, 2);
+}
+
+#about-top{
+    width: 550px;
+    margin-top: 60px;
+    margin-left: 70px;
+}
+
+
+#about-down{
+    width: 720px;    
+    margin-top: 450px;
+    margin-left: 70px;
+}
+
+#about-right{
     
+    width: 430px;
+    margin-top: 260px;
+    margin-left: 1230px;
+}
+
+.text-box p{
+    padding: 15px;
+    padding-left: 30px;
+    justify-content: center;
+    font-size: 22px;
+    /* font-family: Nunito-Regular ; */
+    font-family: Dosis-Regular;
+    
+}
+
+/* ----------------------------WORKS-------------------------------------------------------- */
+
+#works-top{
+    width: 700px;
+    margin-top: 60px;
+    margin-left: 70px;
+    
+    
+}
+
+.album{
+    position: absolute;
+    max-width: 800px;
+    margin-top: 250px;
+    margin-left: 900px;
+
+
+}
+.album div{
+    display: flex;
+    justify-content: center;
+}
+.album img{
+    
+    width: 200px;
+    border: 3px solid black;
+    box-shadow: 0 10px 15px 3px black;
+   margin:  20px;
+
 
 
 }
 
-.text {
-    font-size: 50px;
+#audio{
+    position: absolute;
+    margin-top: 720px;
+    margin-left: 80px;
+    width: 220px;
+    /* margin-bottom: 50px; */
 }
-
-
-
-
-
-
-
-
-
 
 
 
